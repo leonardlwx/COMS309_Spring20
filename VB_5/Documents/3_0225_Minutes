@@ -1,0 +1,22 @@
+Minutes of Meeting (25/02/2020)
+
+Attendance:
+	Present:
+	Wei Xian Lim
+	Varuna Rao
+	Evelyn Khew
+	
+	Absent:
+	Khanh Tran
+
+Discussed flow of work. Settled to start with CI/CD, then working on Mockito, then implementing core features. For the core features, login, signup and registration will not be counted. 
+
+Team members are also urged to divide tasks more equally amongst each member for better grade distribution.
+
+Git issues should be used often as that is how the TA can check in on our respective progress. 
+
+For backend:
+Backend should use Mockito, a testing feature. It is meant for layer by layer testing. 
+
+For frontend:
+Should use Mockito as well. 

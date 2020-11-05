@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.StudyBuddy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="StudyBuddy"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TimerV2"></activity>
+        <activity android:name="adminActivities.TypeSubmission" />
+        <activity android:name=".friendList" />
+        <activity android:name=".PetList" />
+        <activity android:name=".Friends" />
+        <activity android:name=".getPets" />
+        <activity android:name=".LoginSystem.RegisterPage" />
+        <activity android:name=".Timer" />
+        <activity android:name=".LoginSystem.LoginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".deletedUser" />
+        <activity android:name=".settings" />
+        <activity android:name=".MainMenu" />
+        <activity android:name=".CreateUserPage" />
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">StudyBuddy</string>
+    <string name="title_activity_pet_list">petList</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="rarities">
+        <item>Common</item>
+        <item>Rare</item>
+        <item>Ultra Rare</item>
+    </string-array>
+</resources>
